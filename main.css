@@ -1,0 +1,204 @@
+@media (min-width: 992px){
+
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+        background-color: burlywood;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 14rem;
+    }
+    header>nav>.menu>input{
+        width: 12rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border: none;
+        padding-left: 1rem;
+        color: black;
+    }
+}
+@media (min-width: 768px) and (max-width:992px){
+
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+        background-color: burlywood;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 8rem;
+    }
+    header>nav>.menu>input{
+        width: 12rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border: none;
+        padding-left: 1rem;
+        color: black;
+    }
+    
+}
+@media (min-width: 576px) and (max-width:768px){
+
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+        background-color: burlywood;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 4rem;
+    }
+    header>nav>.menu>input{
+        width: 12rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border: none;
+        padding-left: 1rem;
+        color: black;
+    }
+    
+}
+@media (min-width: 386px) and (max-width:576px){
+
+    /* menu */
+    header{
+        width: 100%;
+        height: 4rem;
+        border-bottom: 1px solid darkgrey;
+        background-color: burlywood;
+    }
+    header>nav{
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    header>nav>.menu{
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 1rem;
+    }
+    header>nav>.menu>input{
+        width: 12rem;
+        height: 2rem;
+        border-radius: 1rem;
+        border: none;
+        padding-left: 1rem;
+        color: black;
+    }
+    /*  */
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: burlywood;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.section {
+    margin-bottom: 4rem;
+}
+.featured {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.featured-item {
+    width: 16rem;
+    height: 21rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    background-color: bisque;
+    border-radius: 1rem;
+    gap: 1rem;
+}
+.featured-item img {
+    width: 100%;
+    height: 16rem;
+    border-radius: 1rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0 ;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.featured-item audio{
+    border-radius: 1rem;
+    background-color: aliceblue;
+    width: 14rem;
+}
+.featured-item a{
+    text-decoration: none;
+    line-height: 2.5rem;
+    color: darkgoldenrod;
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.footer p {
+    margin: 0;
+}
